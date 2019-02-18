@@ -4,8 +4,8 @@ Test
 R Markdown
 ----------
 
--   [Intro](#intro)
--   [Including Plots](#including-plots)
+-   <a href='#intro'>Intro</a>
+-   <a href='#including-plots'>Including Plots</a>
 
 ### Intro
 
