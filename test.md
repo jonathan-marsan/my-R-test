@@ -1,20 +1,6 @@
 Test
 ================
 
-collapsible markdown?
----------------------
-
-<details><summary>CLICK ME</summary>
-<p>
-#### yes, even hidden code blocks!
-
-``` python
-print("hello world!")
-```
-
-</p>
-</details>
-
 R Markdown
 ----------
 
@@ -34,6 +20,17 @@ summary(cars)
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
 
+<details><summary>CLICK ME</summary>
+<p>
+#### yes, even hidden code blocks!
+
+``` r
+print("hello world!")
+```
+
+</p>
+</details>
+
 Including Plots
 ---------------
 
@@ -42,3 +39,12 @@ You can also embed plots, for example:
 ![](test_files/figure-markdown_github/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+<details><summary>CLICK ME</summary>
+<p>
+#### yes, even hidden graphs!
+
+![](test_files/figure-markdown_github/unnamed-chunk-1-1.png)
+
+</p>
+</details>
