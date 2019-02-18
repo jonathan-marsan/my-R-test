@@ -1,31 +1,21 @@
 ---
 title: "Test"
-output:
-  html_document:
-    keep_md: true
+output: rmarkdown::github_document
 ---
-<script>
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-</script>
- 
-<button onclick="myFunction()">Show/ hide</button>
- 
-<div id="myDIV">
- 
-Some comments here.
- 
-There are lots so it's nice.
- 
-To be able to hide them.
- 
-</div>
+
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
 
 
 ```{r setup, include=FALSE}
